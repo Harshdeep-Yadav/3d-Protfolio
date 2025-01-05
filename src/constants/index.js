@@ -42,8 +42,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
+  },
+  {
+    title: "FrontEnd Developer",
+    icon: backend,
   },
   {
     title: "Backend Developer",
@@ -54,10 +58,7 @@ const services = [
     icon: mobile,
   },
   
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -117,55 +118,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Developer",
+    company_name: "Wiingy",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered a scalable backend architecture with Node.js, Express.js, and TypeScript, leveraging Redis to slash landing page load times by50%.",
+      "Transitioned workflows to a MERN-powered web portal, eliminating manual Google Sheets processes and boosting teamproductivity by 40%.",
+      "Streamlined paymentoperations byintegrating Stripe and automated email notifications, cutting transaction processing time by 30%.",
+      "Streamlined paymentoperations byintegrating Stripe and automated email notifications, cutting transaction processing time by 30%.",
+      "Accelerated data retrieval by 35% through SQLqueryoptimization andRediscachingimplementation. Integrated advanced scheduling solutions with Google Calendar API and React Big Calendar, achieving 100%schedulingaccuracy.",
+      "Developed areal-time chat platform with Socket.io, elevating user communication efficiency and driving a 50%increaseinresponserates.",
+      "Built an automated CRM system, driving a 75% surge in user engagement by automating notifications and demorequestworkflows."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Developer",
+    company_name: "Kyroc",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered avoice-to-text web application leveraging OpenAI APIs to automate audio-to-text conversions for summaries, emails, and social media posts.",
+      "Implemented Stripe API for subscription management, enabling efficient payment processing and recurring billing functionality.",
+      "Collaborated with cross-functional teams to align product development with business objectives and user requirements."
     ],
   },
   {
-    title: "Web Developer",
+    title: "Software Developer Intern",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a web application for student assessments, generating personalized career paths based on test results.",
+      "Implemented role-based authentication,allowing students to take exams and admins to manage questions, answers, and content creation.",
+      "Streamlined test creation using the RIASEC Model, reducing content development time by30%."
     ],
   },
 ];
